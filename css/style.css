@@ -76,10 +76,6 @@ p{
 
 /* Menú de navegación */
 
-.menu-nav{
-    justify-content: center;
-}
-
 ul{
     list-style: none;
     margin: 0;
@@ -110,7 +106,10 @@ footer{
     font-size: 1.5rem;
     font-family: 'Play', sans-serif;
     background-color: #CF0A0A;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
 }
 
 .follows{
@@ -119,11 +118,6 @@ footer{
 }
 
 /* Página INDEX */
-
-/* .ultimas-novedades{
-    display: flex;
-    justify-content: space-around;
-} */
 
 .ultnovflex{
     text-transform: uppercase;
@@ -160,18 +154,8 @@ main img{
     font-size: 1.5rem;
 }
 
-/* Página BLOG 
+/* Página BLOG */
 
-.galeria-fotos{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
-}
+/* Página AGENDA */
 
-.image1{
-    grid-area: image1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
+/* Página CONTACTO */
