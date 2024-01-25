@@ -196,6 +196,22 @@ input{
 
 /* Página BLOG */
 
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto; 
+}
+
+iframe{
+    margin: 10px;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
 /* Página AGENDA */
 
 .agenda-contenedor{
