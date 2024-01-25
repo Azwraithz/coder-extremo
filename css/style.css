@@ -195,4 +195,35 @@ input{
 
 /* Página AGENDA */
 
+.agenda-contenedor{
+
+    width: 200px;
+
+    font-size: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.agenda-contenedor img{
+    width: 100%;
+}
+
+.evento01{
+    background-color: white;
+}
+
+.aclaracion{
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+    
+}
+
 /* Página CONTACTO */
