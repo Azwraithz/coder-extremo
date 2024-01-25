@@ -56,6 +56,7 @@ main{
 }
 
 /* Titulos principales - Todos */
+
 h1{
     font-size: 3rem;
     text-align: center;
@@ -63,6 +64,7 @@ h1{
 }
 
 /* Titulos secundarios - Todos */
+
 h2{
     font-size: 2.5rem;
     text-align: center;
@@ -70,6 +72,7 @@ h2{
 }
 
 /* Textos - Todos */ 
+
 p{
     font-size: 1.5rem;
 }
@@ -226,4 +229,3 @@ input{
     
 }
 
-/* Página CONTACTO */
