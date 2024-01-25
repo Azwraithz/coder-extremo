@@ -259,3 +259,13 @@ iframe{
     margin: 20px;
 }
 
+/* Breakpoints
+480 : Celulares
+481 - 900 : Tablets
++ 901 : Pantallas de escritorio/netbook/notebooks */
+
+/* MediaQ - Responsive */
+
+@media only screen and (max-width: 480px) {
+
+}
