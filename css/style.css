@@ -18,6 +18,7 @@ font-family: 'Play', sans-serif;
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Play', sans-serif;
 }
 
 html{
@@ -45,7 +46,7 @@ header p{
 }
 
 main{
-    font-family: 'Play', sans-serif;
+    
     background-color: #EEEEEE;
 }
 
@@ -60,7 +61,7 @@ main{
 h1{
     font-size: 3rem;
     text-align: center;
-    padding: 20px;
+    margin-top: 15px;
 }
 
 /* Titulos secundarios - Todos */
@@ -68,7 +69,6 @@ h1{
 h2{
     font-size: 2.5rem;
     text-align: center;
-    padding: 20px;
 }
 
 /* Textos - Todos */ 
@@ -79,18 +79,24 @@ p{
 
 /* Menú de navegación */
 
-ul{
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navBar ul{
     list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li{
+.navBar ul li{
     float: left;
 }
 
-li a {
+.navBar ul li a {
     font-size: 1.75rem;
     display: inline-block;
     color: #EEEEEE;
@@ -99,15 +105,14 @@ li a {
     text-decoration: none;
 }
 
-li:last-child {
-    border-right: none;
+.navBar ul li a:hover{
+    color: red;
 }
 
 /* Footer */
 
 footer{
     font-size: 1.5rem;
-    font-family: 'Play', sans-serif;
     background-color: #CF0A0A;
     display: flex;
     flex-direction: column;
@@ -119,17 +124,37 @@ footer{
     color: #EEEEEE;
 }
 
+.follows ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.follows ul li{
+    float: left;
+}
+
+.follows ul li a{
+    display: inline-block;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 /* Página INDEX */
 
 .principal{
     display: flex;
     flex-direction: row;
-    padding: 50px 200px;
+    padding: 30px;
 }
 
 .principal img{
-    width: 325px;
-    height: 400px;
+    padding-top: 15px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .principal p{
@@ -143,6 +168,12 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.ultnovflex div{
+    margin: 10px;
 }
 
 .ultimas-novedades p{
@@ -165,10 +196,28 @@ main img{
     height: 20%;
 }
 
+/* Página QUIENES SOMOS */
+
+.somos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.somos p{
+    margin: 0 30px;
+}
+
 /* Página CONTACTO */
 
 .formulario{
-    margin-top: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
 }
 
 .formulario label{
@@ -181,18 +230,19 @@ main img{
 }
 
 .boton{
-    width: 70px;
+    width: 100px;
     margin-top: 10px;
     padding: 10px;
     background-color: #ffffff;
     border-radius: 7px;
     color:#11468F;
     font-weight: 300;
+    margin: 0 15px;
 }
 
 .mainContacto{
     background-color: gray;
-    width: 40%;
+    width: 450px;
     margin: 0 auto;
     border-radius: 10px;
     font-size: 2rem;
@@ -204,18 +254,34 @@ main img{
     color: #ffffff;
 }
 
-input{
-    width: 80%;
-    margin: 10px auto;
+.campo{
+    width: 350px;
+    padding: 0 10px;
+}
+
+.btnBox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 /* Página BLOG */
 
+.blogStyle{
+    width: 100%;
+    align-items: center;
+}
+
 .galeria{
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 10px auto; 
+}
+
+.galeria p{
+    margin: 0 15px;
 }
 
 iframe{
@@ -223,23 +289,25 @@ iframe{
 }
 
 .videos{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Página AGENDA */
 
+main p{
+    margin: 0 15px;
+}
+
 .agenda-contenedor{
-
-    width: 200px;
-
-    font-size: 2rem;
     width: 90%;
+    font-size: 2rem;
     margin: 0 auto;
     margin-top: 20px;
-
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -249,7 +317,15 @@ iframe{
 }
 
 .evento01{
-    background-color: white;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    width: 400px;
+}
+
+.evento01 p{
+    margin: 10px 0;
 }
 
 .aclaracion{
@@ -266,6 +342,45 @@ iframe{
 
 /* MediaQ - Responsive */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px){
+    .principal{
+        flex-direction: column;
+    }
 
+    .principal img{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    header img{
+        width: 100%;
+    }
+
+    footer{
+        font-size: 1rem;
+        padding: 0px;
+    }
+
+    .navBar li a{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    h2{
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .agenda-contenedor{
+        flex-wrap: wrap;
+    }
+
+    .principal{
+        flex-direction: column;
+    }
 }

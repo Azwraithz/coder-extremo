@@ -20,7 +20,7 @@
         <img src="../images/logo-extremo-negro.jpg" alt="Logo EXTREMO sobre fondo negro.">
 
         <!-- Menú de Navegación-->
-        <nav>
+        <nav class="navBar">
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="./quienessomos.html">Quienes somos</a></li>
@@ -43,67 +43,77 @@
         </div>
 
         <!-- Formulario -->
-        <div class="mainContacto">
-            <section class="formulario">            
-                <form action="">
+        <div class="mainContacto">          
+                <form class="formulario" action="">
                     <div>
                         <label for="nombre">Nombre completo</label>
-                        <input type="text" name="" id="nombre">
+                        <input class="campo" type="text" name="" id="nombre">
                     </div>
 
-                    <label for="email">Correo electronico</label>
-                    <input type="email" name="" id="email">
+                    <div>
+                        <label for="email">Correo electronico</label>
+                        <input class="campo" type="email" name="" id="email">
+                    </div>
 
-                    <label for="telefono">Telefono</label>
-                    <input type="number" name="" id="telefono">
+                    <div>
+                        <label for="telefono">Telefono</label>
+                        <input class="campo" type="number" name="" id="telefono">
+                    </div>
+                    <div>
+                        <label for="provincia">Provincia</label>
+                        <select class="campo" name="" id="provincia">
+                                <option value="">Buenos Aires</option>
+                                <option value="">Capital Federal</option>
+                                <option value="">Catamarca</option>
+                                <option value="">Chaco</option>
+                                <option value="">Chubut</option>
+                                <option value="">Córdoba</option>
+                                <option value="">Corrientes</option>
+                                <option value="">Entre Ríos</option>
+                                <option value="">Formosa</option>
+                                <option value="">Jujuy</option>
+                                <option value="">La Pampa</option>
+                                <option value="">La Rioja</option>
+                                <option value="">Mendoza</option>
+                                <option value="">Misiones</option>
+                                <option value="">Neuquen</option>
+                                <option value="">Río Negro</option>
+                                <option value="">Salta</option>
+                                <option value="">San Juan</option>
+                                <option value="">San Luís</option>
+                                <option value="">Santa Cruz</option>
+                                <option value="">Santa Fe</option>
+                                <option value="">Santiago del Estero</option>
+                                <option value="">Tierra del Fuego</option>
+                                <option value="">Tucumán</option>    
+                        </select>
+                    </div>
 
-                    <label for="provincia">Provincia</label>
-                    <select name="" id="provincia">
-                            <option value="">Buenos Aires</option>
-                            <option value="">Capital Federal</option>
-                            <option value="">Catamarca</option>
-                            <option value="">Chaco</option>
-                            <option value="">Chubut</option>
-                            <option value="">Córdoba</option>
-                            <option value="">Corrientes</option>
-                            <option value="">Entre Ríos</option>
-                            <option value="">Formosa</option>
-                            <option value="">Jujuy</option>
-                            <option value="">La Pampa</option>
-                            <option value="">La Rioja</option>
-                            <option value="">Mendoza</option>
-                            <option value="">Misiones</option>
-                            <option value="">Neuquen</option>
-                            <option value="">Río Negro</option>
-                            <option value="">Salta</option>
-                            <option value="">San Juan</option>
-                            <option value="">San Luís</option>
-                            <option value="">Santa Cruz</option>
-                            <option value="">Santa Fe</option>
-                            <option value="">Santiago del Estero</option>
-                            <option value="">Tierra del Fuego</option>
-                            <option value="">Tucumán</option>    
-                    </select>
+                    <div>
+                        <label for="fecha">Fecha estimada</label>
+                        <input class="campo" type="date" name="" id="fecha">
+                    </div>
 
-                    <label for="fecha">Fecha estimada</label>
-                    <input type="date" name="" id="fecha">
+                    <div>
+                        <label for="tipo-evento">Tipo de Evento</label>
+                        <select class="campo" name="" id="tipo-evento">
+                            <option value="">Publico</option>
+                            <option value="">Privado</option>
+                            <option value="">No definido</option>
+                        </select>
+                    </div>
 
-                    <label for="tipo-evento">Tipo de Evento</label>
-                    <select name="" id="tipo-evento">
-                        <option value="">Publico</option>
-                        <option value="">Privado</option>
-                        <option value="">No definido</option>
-                    </select>
-
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="campo" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
 
                     <!-- Botonoes -->
-                    <input class="boton" type="submit" value="Enviar">
-                    <input class="boton" type="reset" value="Borrar">
+                    <div class="btnBox">
+                        <input class="boton" type="submit" value="Enviar">
+                        <input class="boton" type="reset" value="Borrar">
+                    </div>
                 </form>
-            </div>
-            </section>
         </div>
     </main>
 
