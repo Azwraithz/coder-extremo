@@ -121,6 +121,21 @@ footer{
 
 /* Página INDEX */
 
+.principal{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 200px;
+}
+
+.principal img{
+    width: 325px;
+    height: 400px;
+}
+
+.principal p{
+    padding-right: 50px;
+}
+
 .ultnovflex{
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -242,6 +257,5 @@ iframe{
     text-align: center;
     text-decoration: underline;
     margin: 20px;
-    
 }
 
