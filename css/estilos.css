@@ -145,4 +145,40 @@ main .ultimas-novedades img {
   margin: 10px 250px;
 }
 
+/* Página: Agenda */
+main p {
+  margin: 0 60px;
+  text-align: left;
+}
+main .agenda-contenedor {
+  width: 90%;
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .agenda-contenedor .evento01 {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 15px;
+  padding: 15px;
+  width: 400px;
+}
+main .agenda-contenedor .evento01 p {
+  margin: 10px 0;
+}
+main .agenda-contenedor img {
+  width: 100%;
+}
+main .aclaracion {
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px;
+}
+
 /*# sourceMappingURL=estilos.css.map */

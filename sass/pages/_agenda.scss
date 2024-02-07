@@ -1,0 +1,40 @@
+/* Página: Agenda */
+
+main{
+    p{
+        margin: 0 60px;
+        text-align: left;
+    }
+
+    .agenda-contenedor{
+        width: 90%;
+        font-size: 2rem;
+        margin: 0 auto;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        @include flex(row, space-evenly, center);
+
+        .evento01{
+            background-color: $negro;
+            color: $blanco;
+            margin: 15px;
+            padding: 15px;
+            width: 400px;
+
+            p{
+                margin: 10px 0;
+            }
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .aclaracion{
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: underline;
+        margin: 20px;
+    }
+}
