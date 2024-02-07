@@ -142,13 +142,9 @@ main .ultimas-novedades img {
   text-align: center;
   margin-top: 15px;
 }
-.somos p {
-  margin: 10px 250px;
-}
 
 /* Página: Agenda */
 main p {
-  margin: 0 60px;
   text-align: left;
 }
 main .agenda-contenedor {
