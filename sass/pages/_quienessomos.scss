@@ -1,0 +1,20 @@
+/* Página: Quienes Somos */
+
+.somos{
+    width: 100%;
+    @include flex(column, center, center);
+
+    h1{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    p{
+        margin: 10px 250px;
+    }
+}

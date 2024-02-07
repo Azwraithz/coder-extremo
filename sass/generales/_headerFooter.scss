@@ -1,0 +1,66 @@
+/* Estilos de HEADER */
+
+header{
+    background-color: $negro;
+    color: $blanco;
+
+    .logo-extremo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .navBar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+            li{
+                float: left;
+
+                a {
+                    @include listas(center, 14px, 16px, none);
+                    font-size: 1.75rem;
+                    color: $blanco;
+
+                    &:hover{
+                        color: $rojo;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Estilos de FOOTER */
+
+footer{
+    font-size: 1.5rem;
+    background-color: $rojo;
+    color: $blanco-2;
+    @include flex-2(column, center);
+    padding: 15px;
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        li{
+            float: left;
+
+            a{
+                @include listas(center, 14px, 16px, none);
+                color: $blanco-2;
+            }
+        }
+    }
+}

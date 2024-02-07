@@ -1,0 +1,46 @@
+main{
+
+    h1, h2, p{
+        text-align: center;
+        padding: 15px;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+    
+        img{
+            padding-top: 15px;
+            max-width: 300px;
+            width: 100%;
+        }
+    
+        p{
+            padding: 50px;
+        }
+    }
+
+    .ultimas-novedades{
+        .ultnovflex{
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            @include flex(row, space-around, center);
+            flex-wrap: wrap;
+            margin: 10px;
+        
+            div{
+                margin: 10px;
+            }
+        }
+
+        p{
+            padding: 15px;
+        }
+
+        img{
+            width: 325px;
+            height: 400px;
+        }
+    }
+}

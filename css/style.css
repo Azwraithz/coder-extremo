@@ -5,15 +5,15 @@ NARANJA: #DC5F00 - rgb(220, 95, 0)
 BLANCO: #EEEEEE - rgb(238, 238, 238)
 */
 
-/* Familia de tipograficas */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@400;700&display=swap');
+/* Familia de tipograficas 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@400;700&display=swap'); */
 
 /* Codigo para tipografias
 font-family: 'Bebas Neue', sans-serif;
 font-family: 'Play', sans-serif;
 */
 
-/* SETEO PRINCIPAL */ 
+/* SETEO PRINCIPAL 
 
 *{
     margin: 0;
@@ -23,9 +23,9 @@ font-family: 'Play', sans-serif;
 
 html{
     font-size: 62.5%;
-}
+} */
 
-/* HEADER */
+/* HEADER
 
 header{
     font-family: 'Play', sans-serif;
@@ -34,7 +34,7 @@ header{
     text-align: center;
 }
 
-header img{
+.logo-extremo{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -43,7 +43,7 @@ header img{
 
 header p{
     margin: 15px 0px;
-}
+} */
 
 main{
     
@@ -56,7 +56,7 @@ main{
     text-align: center;
 }
 
-/* Titulos principales - Todos */
+/* Titulos principales - Todos
 
 h1{
     font-size: 3rem;
@@ -64,20 +64,20 @@ h1{
     margin-top: 15px;
 }
 
-/* Titulos secundarios - Todos */
+Titulos secundarios - Todos
 
 h2{
     font-size: 2.5rem;
     text-align: center;
 }
 
-/* Textos - Todos */ 
+Textos - Todos 
 
 p{
     font-size: 1.5rem;
-}
+} */ 
 
-/* Menú de navegación */
+/* Menú de navegación 
 
 .navBar{
     width: 100%;
@@ -107,9 +107,9 @@ p{
 
 .navBar ul li a:hover{
     color: red;
-}
+}  */
 
-/* Footer */
+/* Footer 
 
 footer{
     font-size: 1.5rem;
@@ -141,9 +141,9 @@ footer{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+} */
 
-/* Página INDEX */
+/* Página INDEX 
 
 .principal{
     display: flex;
@@ -194,9 +194,9 @@ footer{
 main img{
     width: 20%;
     height: 20%;
-}
+} */
 
-/* Página QUIENES SOMOS */
+/* Página QUIENES SOMOS 
 
 .somos{
     width: 100%;
@@ -208,7 +208,7 @@ main img{
 
 .somos p{
     margin: 0 30px;
-}
+} */
 
 /* Página CONTACTO */
 

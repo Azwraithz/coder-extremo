@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* Estilos Generales */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Play", sans-serif;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* Estilos de HEADER */
+header {
+  background-color: #000000;
+  color: #ffffff;
+}
+header .logo-extremo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+header .navBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .navBar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header .navBar ul li {
+  float: left;
+}
+header .navBar ul li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.75rem;
+  color: #ffffff;
+}
+header .navBar ul li a:hover {
+  color: #CF0A0A;
+}
+
+/* Estilos de FOOTER */
+footer {
+  font-size: 1.5rem;
+  background-color: #CF0A0A;
+  color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+footer ul li {
+  float: left;
+}
+footer ul li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+main h1, main h2, main p {
+  text-align: center;
+  padding: 15px;
+}
+main .principal {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+main .principal img {
+  padding-top: 15px;
+  max-width: 300px;
+  width: 100%;
+}
+main .principal p {
+  padding: 50px;
+}
+main .ultimas-novedades .ultnovflex {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+main .ultimas-novedades .ultnovflex div {
+  margin: 10px;
+}
+main .ultimas-novedades p {
+  padding: 15px;
+}
+main .ultimas-novedades img {
+  width: 325px;
+  height: 400px;
+}
+
+/* Página: Quienes Somos */
+.somos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.somos h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+.somos h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+.somos p {
+  margin: 10px 250px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

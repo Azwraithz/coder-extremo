@@ -1,0 +1,31 @@
+// Declaración de variables
+
+$font: 'Play', sans-serif;
+
+$negro: #000000;
+$blanco: #ffffff;
+$blanco-2: #EEEEEE;
+$rojo: #CF0A0A;
+$naranja: #DC5F00;
+
+// Declaración de MIXIN
+
+@mixin flex ($direccion, $justify, $align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin flex-2 ($direccion, $align){
+    display: flex;
+    flex-direction: $direccion;
+    align-items: $align;
+}
+
+@mixin listas ($talign, $p1, $p2, $decoration){
+    display: inline-block;
+    text-align: $talign;
+    padding: $p1 $p2;
+    text-decoration: $decoration;
+}

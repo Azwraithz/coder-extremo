@@ -1,3 +1,42 @@
-// Imports Partials
+// Imports para CSS
 
-// Declaración de variables
+@import "generales/variables";
+
+/* Estilos Generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: $font;
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+@import "generales/headerFooter";
+
+@import "pages/index";
+@import "pages/quienessomos";
+@import "pages/agenda";
+@import "pages/contacto";
+@import "pages/blog";
+
+
+// Import mediaQ
+
+@import "generales/mediaQ";
