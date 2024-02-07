@@ -1,0 +1,25 @@
+/* Página: Blog */
+
+.blogStyle{
+    width: 100%;
+    align-items: center;
+
+    .galeria{
+        width: 100%;
+        @include flex(column, center, center);
+
+        p{
+            margin: 0 15px;
+        }
+    }
+
+    .videos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        iframe{
+            margin: 10px;
+        }
+    }
+}

@@ -87,6 +87,7 @@ footer ul li a {
   color: #EEEEEE;
 }
 
+/* Página: Index */
 main h1, main h2, main p {
   text-align: center;
   padding: 15px;
@@ -102,7 +103,7 @@ main .principal img {
   width: 100%;
 }
 main .principal p {
-  padding: 50px;
+  padding-right: 50px;
 }
 main .ultimas-novedades .ultnovflex {
   text-transform: uppercase;
@@ -179,6 +180,131 @@ main .aclaracion {
   text-align: center;
   text-decoration: underline;
   margin: 20px;
+}
+
+/* Página: Contacto */
+.mensaje {
+  margin: 15px 70px;
+  font-size: 3rem;
+}
+
+/* Página: Contacto - Fomulario */
+.mainContacto {
+  background-color: #EEEEEE;
+  color: #000000;
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainContacto .formulario {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+.mainContacto .formulario label {
+  font-size: 1.5rem;
+}
+.mainContacto .formulario .campo {
+  width: 350px;
+  padding: 0 10px;
+}
+.mainContacto .formulario .btnBox {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.mainContacto .formulario .btnBox .boton {
+  width: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  color: #11468F;
+  font-weight: 300;
+  margin: 0 15px;
+}
+
+/* Página: Blog */
+.blogStyle {
+  width: 100%;
+  align-items: center;
+}
+.blogStyle .galeria {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blogStyle .galeria p {
+  margin: 0 15px;
+}
+.blogStyle .videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blogStyle .videos iframe {
+  margin: 10px;
+}
+
+/* MediaQ - Responsive */
+@media only screen and (max-width: 720px) {
+  .principal {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .principal p {
+    padding: 0px;
+    margin: 0;
+  }
+  .principal img {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  header .navBar ul li a {
+    font-size: 1.5rem;
+  }
+  header img {
+    width: 100%;
+  }
+  footer {
+    font-size: 1rem;
+    padding: 0px;
+  }
+  h1 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  h2 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .principal {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .principal p {
+    padding: 0px;
+    margin: 0;
+  }
+  .principal img {
+    max-width: 100%;
+  }
+  .agenda-contenedor {
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

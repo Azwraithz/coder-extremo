@@ -1,0 +1,54 @@
+/* Página: Contacto */
+
+.mensaje{
+    margin: 15px 70px;
+     font-size: 3rem;
+}
+
+/* Página: Contacto - Fomulario */
+
+.mainContacto{
+    background-color: $blanco-2;
+    color: $negro;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    @include flex-2(column, center);
+    
+    .formulario{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+
+        label{
+            font-size: 1.5rem;
+        }
+
+        .campo{
+            width: 350px;
+            padding: 0 10px;
+        }
+
+        .btnBox{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+            .boton{
+                width: 100px;
+                margin-top: 10px;
+                padding: 10px;
+                background-color: #ffffff;
+                border-radius: 7px;
+                color:#11468F;
+                font-weight: 300;
+                margin: 0 15px;
+            }
+        }
+    }
+}
