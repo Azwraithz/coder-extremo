@@ -145,6 +145,7 @@ main .ultimas-novedades img {
 
 /* Página: Agenda */
 main p {
+  margin: 0 60px;
   text-align: left;
 }
 main .agenda-contenedor {
@@ -285,6 +286,10 @@ main .aclaracion {
   h2 {
     font-size: 2rem;
     padding: 10px;
+  }
+  p {
+    margin: 0px;
+    text-align: left;
   }
   .principal {
     flex-direction: column;
