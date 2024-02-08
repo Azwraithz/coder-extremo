@@ -46,3 +46,30 @@ main{
         }
     }
 }
+
+/* Página: Index - Animación */
+
+.animacion{
+    animation-name: efecto;
+    animation-iteration-count: 4;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+@keyframes efecto{
+    0%{
+        color: $negro;
+    }
+    25%{
+        color: $blanco-2;
+    }
+    50%{
+        color: $rojo;
+    }
+    75%{
+        color: $blanco;
+    }
+    100%{
+        color: $negro;
+    }
+}

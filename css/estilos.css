@@ -126,6 +126,31 @@ main .ultimas-novedades img {
   height: 400px;
 }
 
+/* Página: Index - Animación */
+.animacion {
+  animation-name: efecto;
+  animation-iteration-count: 4;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+@keyframes efecto {
+  0% {
+    color: #000000;
+  }
+  25% {
+    color: #EEEEEE;
+  }
+  50% {
+    color: #CF0A0A;
+  }
+  75% {
+    color: #ffffff;
+  }
+  100% {
+    color: #000000;
+  }
+}
 /* Página: Quienes Somos */
 .somos {
   width: 100%;
@@ -251,6 +276,7 @@ main .aclaracion {
 }
 .blogStyle .videos iframe {
   margin: 10px;
+  width: 75%;
 }
 
 /* MediaQ - Responsive */
