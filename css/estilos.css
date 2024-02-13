@@ -107,19 +107,22 @@ main .principal p {
 }
 main .ultimas-novedades .ultnovflex {
   text-transform: uppercase;
-  margin-bottom: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 5px;
 }
 main .ultimas-novedades .ultnovflex div {
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-main .ultimas-novedades p {
-  padding: 15px;
+main .ultimas-novedades .ultnovflex div a {
+  margin: 10px;
 }
 main .ultimas-novedades img {
   width: 325px;
@@ -190,9 +193,7 @@ main .agenda-contenedor .evento01 {
   margin: 15px;
   padding: 15px;
   width: 400px;
-}
-main .agenda-contenedor .evento01 p {
-  margin: 10px 0;
+  text-align: center;
 }
 main .agenda-contenedor img {
   width: 100%;

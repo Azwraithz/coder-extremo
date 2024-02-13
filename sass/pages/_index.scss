@@ -26,18 +26,21 @@ main{
     .ultimas-novedades{
         .ultnovflex{
             text-transform: uppercase;
-            margin-bottom: 20px;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
             @include flex(row, space-around, center);
             flex-wrap: wrap;
-            margin: 10px;
-        
-            div{
-                margin: 10px;
-            }
-        }
+            margin: 5px;
 
-        p{
-            padding: 15px;
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                a{
+                    margin: 10px;
+                }
+            }
         }
 
         img{
