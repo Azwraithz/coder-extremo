@@ -130,7 +130,7 @@ main .ultimas-novedades .ultnovflex div a button {
   border: none;
   position: relative;
   height: 60px;
-  font-size: 1.5em;
+  font-size: 1.25em;
   padding: 0 2em;
   cursor: pointer;
   transition: 800ms ease all;
@@ -230,6 +230,47 @@ main .agenda-contenedor .evento01 {
   padding: 15px;
   width: 400px;
   text-align: center;
+}
+main .agenda-contenedor .evento01 .evento-agenda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .agenda-contenedor .evento01 button {
+  background: #CF0A0A;
+  color: #ffffff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.5rem;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+main .agenda-contenedor .evento01 button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+main .agenda-contenedor .evento01 button:before, main .agenda-contenedor .evento01 button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #CF0A0A;
+  transition: 400ms ease all;
+}
+main .agenda-contenedor .evento01 button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+main .agenda-contenedor .evento01 button:hover:before, main .agenda-contenedor .evento01 button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
 }
 main .agenda-contenedor img {
   width: 100%;
