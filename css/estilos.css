@@ -124,6 +124,42 @@ main .ultimas-novedades .ultnovflex div {
 main .ultimas-novedades .ultnovflex div a {
   margin: 10px;
 }
+main .ultimas-novedades .ultnovflex div a button {
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.5em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+main .ultimas-novedades .ultnovflex div a button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+main .ultimas-novedades .ultnovflex div a button:before, main .ultimas-novedades .ultnovflex div a button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #CF0A0A;
+  transition: 400ms ease all;
+}
+main .ultimas-novedades .ultnovflex div a button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+main .ultimas-novedades .ultnovflex div a button:hover:before, main .ultimas-novedades .ultnovflex div a button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
 main .ultimas-novedades img {
   width: 325px;
   height: 400px;
@@ -270,6 +306,10 @@ main .aclaracion {
 .blogStyle .galeria p {
   margin: 0 15px;
 }
+.blogStyle .titulo-videos {
+  margin: 15px;
+  font-size: 3rem;
+}
 .blogStyle .videos {
   display: flex;
   flex-wrap: wrap;
@@ -277,7 +317,6 @@ main .aclaracion {
 }
 .blogStyle .videos iframe {
   margin: 10px;
-  width: 70%;
 }
 
 /* MediaQ - Responsive */
@@ -332,6 +371,12 @@ main .aclaracion {
   }
   .agenda-contenedor {
     flex-wrap: wrap;
+  }
+  .videos {
+    flex-direction: column;
+  }
+  .videos iframe {
+    width: auto;
   }
 }
 

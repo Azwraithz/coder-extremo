@@ -65,5 +65,13 @@
 
     .agenda-contenedor{
         flex-wrap: wrap;
-    }    
+    }  
+
+    .videos{
+        flex-direction: column;
+
+        iframe{
+            width: auto;
+        }
+    }
 }
