@@ -103,7 +103,8 @@ main .principal img {
   width: 100%;
 }
 main .principal p {
-  padding-right: 50px;
+  padding-right: auto;
+  text-align: justify;
 }
 main .ultimas-novedades .ultnovflex {
   text-transform: uppercase;
@@ -210,7 +211,7 @@ main .ultimas-novedades img {
 /* Página: Agenda */
 main p {
   margin: 0 60px;
-  text-align: left;
+  text-align: justify;
 }
 main .agenda-contenedor {
   width: 90%;
@@ -284,8 +285,8 @@ main .aclaracion {
 
 /* Página: Contacto */
 .mensaje {
-  margin: 15px 70px;
   font-size: 3rem;
+  text-align: justify;
 }
 
 /* Página: Contacto - Fomulario */
@@ -396,7 +397,7 @@ main .aclaracion {
   }
   p {
     margin: 0px;
-    text-align: left;
+    text-align: justify;
   }
   .principal {
     flex-direction: column;

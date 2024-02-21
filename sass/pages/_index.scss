@@ -11,6 +11,7 @@ main{
         display: flex;
         flex-direction: row;
         padding: 30px;
+        
     
         img{
             padding-top: 15px;
@@ -19,7 +20,8 @@ main{
         }
     
         p{
-            padding-right: 50px;
+            padding-right: auto;
+            text-align: justify;
         }
     }
 
