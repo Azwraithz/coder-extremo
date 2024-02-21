@@ -1,6 +1,16 @@
 /* MediaQ - Responsive */
 
 @media only screen and (max-width: 720px){
+    header{
+        .navBar ul li a{
+            font-size: 1.15rem;
+        }
+
+        img{
+        width: 100%;
+        }
+    }
+
     .principal{
         flex-direction: column;
         flex-wrap: wrap;
@@ -20,7 +30,7 @@
 @media only screen and (max-width: 480px){
     header{
         .navBar ul li a{
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
 
         img{
