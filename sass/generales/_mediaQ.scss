@@ -1,13 +1,18 @@
 /* MediaQ - Responsive */
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 1020px){
     header{
-        .navBar ul li a{
-            font-size: 1.15rem;
+        img{
+            width: 100%;
         }
 
-        img{
-        width: 100%;
+        .nav-link {
+            padding:18px 0;
+            min-width:120px;
+        }
+          
+        .navbar {
+            padding: 0
         }
     }
 

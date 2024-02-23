@@ -17,21 +17,46 @@
 </head>
 
 <body class="blogStyle">
-    <header>
-        <!-- Logo -->
-        <a href="../index.html"><img class="logo-extremo" src="../images/logo-extremo-negro.jpg" alt="Logo EXTREMO sobre fondo negro."></a>
+  <header>
+    <!-- Logo -->
+    <div class="text-center p-3 d-none d-md-block d-xs-block d-block">
+      <a href="../index.html">
+        <img src="../../images/logo-extremo-negro.jpg" height="120" alt="Logo EXTREMO sobre fondo negro.">
+      </a>  
+    </div>
 
-        <!-- Menú de Navegación -->
-        <nav class="navBar">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./quienessomos.html">Quienes somos</a></li>
-                <li><a href="./agenda.html">Agenda</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="#">Galeria</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-black navPropio">
+      <div class="container">
+        <a class="navbar-brand d-md-none d-xs-block py-3" href="../index.html">
+          <img class="logo-extremo" src="../../images/logo-extremo-negro.jpg" alt="Logo EXTREMO sobre fondo negro.">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-3 btn btn-danger" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 btn btn-danger" href="./quienessomos.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 btn btn-danger" href="./agenda.html">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 btn btn-danger" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 btn btn-danger" href="#">Galeria</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
 
     <main class="galeria">
       <h1>GALERIA DE FOTOS</h1>

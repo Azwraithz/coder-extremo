@@ -32,32 +32,10 @@ header .logo-extremo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
 }
-header .navBar {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-header .navBar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-header .navBar ul li {
-  float: left;
-}
-header .navBar ul li a {
-  display: inline-block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+header .navPropio {
   font-size: 1.75rem;
-  color: #ffffff;
-}
-header .navBar ul li a:hover {
-  color: #CF0A0A;
 }
 
 /* Estilos de FOOTER */
@@ -99,7 +77,6 @@ main .principal {
 }
 main .principal img {
   padding-top: 15px;
-  max-width: 300px;
   width: 100%;
 }
 main .principal p {
@@ -362,12 +339,16 @@ main .aclaracion {
 }
 
 /* MediaQ - Responsive */
-@media only screen and (max-width: 720px) {
-  header .navBar ul li a {
-    font-size: 1.15rem;
-  }
+@media only screen and (max-width: 1020px) {
   header img {
     width: 100%;
+  }
+  header .nav-link {
+    padding: 18px 0;
+    min-width: 120px;
+  }
+  header .navbar {
+    padding: 0;
   }
   .principal {
     flex-direction: column;
