@@ -30,6 +30,12 @@
             max-width: 100%;
         }
     }
+
+    .videos{
+        iframe{
+            width: auto;
+        }
+    }
 }
 
 @media only screen and (max-width: 480px){
@@ -86,7 +92,7 @@
         flex-direction: column;
 
         iframe{
-            width: 85%;
+            width: auto;
         }
     }
 }
