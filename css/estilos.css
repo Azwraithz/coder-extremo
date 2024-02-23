@@ -404,7 +404,7 @@ main .aclaracion {
     flex-direction: column;
   }
   .videos iframe {
-    width: 98%;
+    width: 85%;
   }
 }
 
